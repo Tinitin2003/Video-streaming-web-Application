@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    height:100vh;
+    position: relative;
+    background-image: url('https://wallpaperaccess.com/full/3658597.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.login-page::before{
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.button {
+    position: relative;
+    padding: 8px 16px;
+    background: #009579;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.logo{
+    height:80px
+}
+.login-container{
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 60px;
+    height: 630px; 
+    position:relative;
+    border-radius: 20px;
+    max-width: 450px;
+    margin-left: 50%;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    
+}
+.login-form{
+    display: flex;
+    color:gray;
+    justify-content: center;
+    z-index: 2;
+    margin: 20px;
+    flex-direction: column;
+}
+.login-form{
+    width:300px;
+}
+label{
+ text-align: left;   
+ padding: 0.1rem 0;
+}
+.login-container h1{
+    color:white;
+}
+.login-container input{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    outline: none;
+    position: relative;
+    margin: 0.5rem 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.login-container button{
+    border:none;
+    position: relative;
+    background-color: rgb(1, 74, 172);
+    cursor: pointer;
+    width:100%;
+    margin:0.5rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    color:white
+}
+.button-signup{
+    background: none;
+}
+.signup-route{
+    color:white;
+}
+.error-msg{
+    color:red;
+    width: 100%;
+    font-size: 12px;
+    display:flex;
+}
+.success-status{
+    background-color: rgb(1, 74, 172);
+    width: 96%;
+    color:#fff;
+    padding:10px;
+    font-weight: 600;
+    display: flex;
+    border-radius: 5px;
+}
+.input-box{
+    border:none;
+  
+    background-color: transparent;
+    color:#fff;
+    display: flex;
+}
+.toggle-button{
+    border-radius: 0%;
+    padding: 0;
+    background-color: transparent;
+
+}
+.form-input{
+    background-color: rgb(38, 32, 32);
+    border: none;
+    color: #fff;
+    margin-right: 3px;
+}
+.form-input-pass{
+    width:83%;
+}
+@media screen and (max-width:800px) {
+    .input-box .form-input-email{
+            width:fit-content;
+    }
+    .login-container button{
+        width:fit-content
+    }
+    .login-container{
+        width: 100%;
+    }
+    .login-page{
+        background-image: none;
+        background-color: black;
+    }
+}

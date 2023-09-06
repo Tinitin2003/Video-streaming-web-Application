@@ -1,0 +1,19 @@
+.notf-page img{
+    display: block;
+    width: 40%;
+    height: 40%;
+    transform: translateX(70%);
+}
+.notf-page{
+    text-align: center;
+    font-weight: 500;
+}
+.notf-page p{
+    padding: 10px;
+}
+.notf-page button{
+    background-color: black;
+    padding: 10px;
+    display:flex;
+    margin-left: 45%;
+}

@@ -1,0 +1,18 @@
+.content_container{
+    background-color: #121212;
+    
+}
+.movie-card-container{
+    padding: 30px;
+    background-color: #121212;
+}
+.movie-card{
+    color: white;
+    text-align: center;
+}
+.movie-poster img{
+    height: 500px;
+}
+.movie-poster img:hover{
+    transform: scale(1.08);
+}

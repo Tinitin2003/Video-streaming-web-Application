@@ -1,0 +1,26 @@
+.about-page{
+    padding: 10px;
+    padding-bottom: 700px;
+    background-color: #141414;
+}
+.about-us{
+    margin-left: 50px;
+    margin-right: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.about-us h1{
+    
+    padding: 10px;
+    color: white;
+}
+.about-us p{
+    width: 100%;
+    color: rgb(149, 150, 152);
+}
+.link{
+    text-decoration: none;
+    color:rgb(1, 74, 172) ;
+}

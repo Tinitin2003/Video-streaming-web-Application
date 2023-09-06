@@ -1,0 +1,50 @@
+.register-page{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.register-container{
+    margin-left: 50%;
+    height: 630px;
+    transform: translateX(-50%);
+    border:1px solid black;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.register-container input{
+        padding:0.5rem;
+        border: none;
+        background-color: rgb(235, 234, 234);
+}
+.register-container button{
+    border:none;
+    background-color: rgb(1, 74, 172);
+    cursor: pointer;
+    width:100%;
+    margin:0.5rem 0;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+    
+}
+.register-container p{
+    font-size: small;
+}
+#a-sign{
+    color:white;
+    text-decoration: none;
+}
+.err-msg{
+    color:red;
+    
+}

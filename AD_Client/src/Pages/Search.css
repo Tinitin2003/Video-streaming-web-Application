@@ -1,0 +1,23 @@
+*{
+   background-size: cover;
+   
+}
+.search{
+    width: 100%;
+    background-color: rgb(46, 46, 48);
+}
+.search-bar{
+    margin-left: 20%;
+    display: flex;
+    
+}
+.search-panal{
+    padding: 20px;
+}
+.search-bar input{
+    padding: 1rem;
+    width: 70%;
+    background-color: rgb(65, 62, 62);
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
