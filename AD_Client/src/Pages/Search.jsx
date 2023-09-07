@@ -1,20 +1,8 @@
 import React, { useState } from 'react'
 import {FiSearch} from 'react-icons/fi'
-import api from '../Components/URL/axiodConfig';
 import '../Pages/Search.css'
 export const Search=()=>{
   const [searchquery,setSearchQuery]=useState();
-  const [movies,setMovies]=useState();
-  const getMovies=async()=>{
-    try{
-      const response=await api.get("/getdata");
-      setMovies(response.data);
-  
-    }catch(err){
-      console.log(err);
-    
-  }
-  }
   const handleSearch=(event)=>{
     event.preventDefault();
   }
