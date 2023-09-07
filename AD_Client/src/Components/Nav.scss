@@ -5,6 +5,13 @@
     z-index: 999;
     position: fixed;
     width: 100%;
+    a:hover{
+        color:rgb(1, 74, 172);
+    }
+    
+    button:hover{
+        color:rgb(1, 74, 172);
+    }
 }
 .nav_logo{
     height: 80px;
@@ -100,13 +107,9 @@ button{
 .dropdown-menu ul li{
     padding: 10px 0;
     border-top: 1px solid rgb(0,0,0,0.05);
-}
-a:hover{
-    color:rgb(1, 74, 172);
-}
-button:hover{
-    color:rgb(1, 74, 172);
-}
+}/*
+
+*/
 .dropdown-menu ul li:hover a{
     color:rgb(1, 74, 172);
     cursor: pointer;

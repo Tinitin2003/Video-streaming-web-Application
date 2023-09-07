@@ -1,4 +1,4 @@
-import './Nav.css';
+import './Nav.scss';
 import { VscAccount } from 'react-icons/vsc';
 import { BsFillHouseFill } from 'react-icons/bs';
 import { SlOptions } from 'react-icons/sl';

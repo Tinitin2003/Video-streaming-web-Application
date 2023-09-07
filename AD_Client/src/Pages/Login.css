@@ -78,7 +78,7 @@ label{
     position: relative;
     background-color: rgb(1, 74, 172);
     cursor: pointer;
-    width:100%;
+    width:fit-content;
     margin:0.5rem 0;
     font-weight: 500;
     font-size: 16px;
@@ -107,19 +107,36 @@ label{
     display: flex;
     border-radius: 5px;
 }
-.input-box{
-    border:none;
-  
+.input-box {
+    border: none;
     background-color: transparent;
-    color:#fff;
+    color: #fff;
+    align-items: center;
     display: flex;
-}
-.toggle-button{
-    border-radius: 0%;
-    padding: 0;
+    position: relative;
+  }
+  
+  .input-box .form-input-pass {
+    flex: 1;
+    border: none;
+    margin-right: 0;
+    padding-right: 40px; /* Adjust the padding for the toggle button */
+  }
+  
+  .input-box .toggle-button {
     background-color: transparent;
-
-}
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
 .form-input{
     background-color: rgb(38, 32, 32);
     border: none;
@@ -144,3 +161,24 @@ label{
         background-color: black;
     }
 }
+/* Spinner animation */
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Spinner style */
+  .loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #007bff; /* Change the color as needed */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  

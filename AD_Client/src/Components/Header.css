@@ -16,6 +16,7 @@
     left:0;
     right:0;
 }
+
 .more_button :hover {
     color: rgb(1, 74, 172);
     transform: scale(2.08);
